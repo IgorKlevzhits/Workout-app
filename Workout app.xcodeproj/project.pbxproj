@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		161352C5297DE2F600DE899C /* WorkoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161352C4297DE2F600DE899C /* WorkoutTableViewCell.swift */; };
+		161352C8297E0D3B00DE899C /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161352C7297E0D3B00DE899C /* WeatherView.swift */; };
 		1691E3B02978E03F004FFE43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3AF2978E03F004FFE43 /* AppDelegate.swift */; };
 		1691E3B22978E03F004FFE43 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3B12978E03F004FFE43 /* SceneDelegate.swift */; };
-		1691E3B42978E03F004FFE43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3B32978E03F004FFE43 /* ViewController.swift */; };
-		1691E3B72978E03F004FFE43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1691E3B52978E03F004FFE43 /* Main.storyboard */; };
+		1691E3B42978E03F004FFE43 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3B32978E03F004FFE43 /* MainViewController.swift */; };
 		1691E3B92978E041004FFE43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1691E3B82978E041004FFE43 /* Assets.xcassets */; };
 		1691E3BC2978E041004FFE43 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1691E3BA2978E041004FFE43 /* LaunchScreen.storyboard */; };
+		1691E3CB2978E9AC004FFE43 /* UIFont + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3CA2978E9AC004FFE43 /* UIFont + Extensions.swift */; };
+		1691E3CD2978E9CC004FFE43 /* UIColor + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3CC2978E9CC004FFE43 /* UIColor + Extensions.swift */; };
+		1691E3CF2978E9E9004FFE43 /* UIView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3CE2978E9E9004FFE43 /* UIView + Extensions.swift */; };
+		1691E3D12978EA0B004FFE43 /* UIStackView + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3D02978EA0B004FFE43 /* UIStackView + Extensions.swift */; };
+		1691E3D42978EBFA004FFE43 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1691E3D32978EBFA004FFE43 /* Roboto-Medium.ttf */; };
+		1691E3D62978EC07004FFE43 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1691E3D52978EC07004FFE43 /* Roboto-Bold.ttf */; };
+		1691E3D92979FE1E004FFE43 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3D82979FE1E004FFE43 /* CalendarView.swift */; };
+		1691E3DB297A0C28004FFE43 /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1691E3DA297A0C28004FFE43 /* CalendarCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		161352C4297DE2F600DE899C /* WorkoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTableViewCell.swift; sourceTree = "<group>"; };
+		161352C7297E0D3B00DE899C /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
 		1691E3AC2978E03F004FFE43 /* Workout app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Workout app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1691E3AF2978E03F004FFE43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1691E3B12978E03F004FFE43 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1691E3B32978E03F004FFE43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1691E3B62978E03F004FFE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1691E3B32978E03F004FFE43 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1691E3B82978E041004FFE43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1691E3BB2978E041004FFE43 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1691E3BD2978E041004FFE43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1691E3CA2978E9AC004FFE43 /* UIFont + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont + Extensions.swift"; sourceTree = "<group>"; };
+		1691E3CC2978E9CC004FFE43 /* UIColor + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extensions.swift"; sourceTree = "<group>"; };
+		1691E3CE2978E9E9004FFE43 /* UIView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + Extensions.swift"; sourceTree = "<group>"; };
+		1691E3D02978EA0B004FFE43 /* UIStackView + Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extensions.swift"; sourceTree = "<group>"; };
+		1691E3D32978EBFA004FFE43 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		1691E3D52978EC07004FFE43 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		1691E3D82979FE1E004FFE43 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		1691E3DA297A0C28004FFE43 /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +74,104 @@
 		1691E3AE2978E03F004FFE43 /* Workout app */ = {
 			isa = PBXGroup;
 			children = (
+				1691E3C32978E1AA004FFE43 /* Application */,
+				1691E3C42978E1CC004FFE43 /* Models */,
+				1691E3C52978E1DD004FFE43 /* Views */,
+				1691E3C62978E1EE004FFE43 /* Controllers */,
+				1691E3C72978E21A004FFE43 /* Extensions */,
+				1691E3C82978E228004FFE43 /* Resources */,
+			);
+			path = "Workout app";
+			sourceTree = "<group>";
+		};
+		1691E3C32978E1AA004FFE43 /* Application */ = {
+			isa = PBXGroup;
+			children = (
 				1691E3AF2978E03F004FFE43 /* AppDelegate.swift */,
 				1691E3B12978E03F004FFE43 /* SceneDelegate.swift */,
-				1691E3B32978E03F004FFE43 /* ViewController.swift */,
-				1691E3B52978E03F004FFE43 /* Main.storyboard */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		1691E3C42978E1CC004FFE43 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1691E3C52978E1DD004FFE43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1691E3D72979FDF4004FFE43 /* MainVC */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1691E3C62978E1EE004FFE43 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1691E3B32978E03F004FFE43 /* MainViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1691E3C72978E21A004FFE43 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1691E3C92978E24A004FFE43 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1691E3C82978E228004FFE43 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1691E3D22978EBDF004FFE43 /* Fonts */,
 				1691E3B82978E041004FFE43 /* Assets.xcassets */,
 				1691E3BA2978E041004FFE43 /* LaunchScreen.storyboard */,
 				1691E3BD2978E041004FFE43 /* Info.plist */,
 			);
-			path = "Workout app";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1691E3C92978E24A004FFE43 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1691E3CA2978E9AC004FFE43 /* UIFont + Extensions.swift */,
+				1691E3CC2978E9CC004FFE43 /* UIColor + Extensions.swift */,
+				1691E3CE2978E9E9004FFE43 /* UIView + Extensions.swift */,
+				1691E3D02978EA0B004FFE43 /* UIStackView + Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		1691E3D22978EBDF004FFE43 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1691E3D52978EC07004FFE43 /* Roboto-Bold.ttf */,
+				1691E3D32978EBFA004FFE43 /* Roboto-Medium.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		1691E3D72979FDF4004FFE43 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				1691E3DC297A0EAD004FFE43 /* Cells */,
+				1691E3D82979FE1E004FFE43 /* CalendarView.swift */,
+				161352C7297E0D3B00DE899C /* WeatherView.swift */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		1691E3DC297A0EAD004FFE43 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				1691E3DA297A0C28004FFE43 /* CalendarCollectionViewCell.swift */,
+				161352C4297DE2F600DE899C /* WorkoutTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +234,8 @@
 			files = (
 				1691E3BC2978E041004FFE43 /* LaunchScreen.storyboard in Resources */,
 				1691E3B92978E041004FFE43 /* Assets.xcassets in Resources */,
-				1691E3B72978E03F004FFE43 /* Main.storyboard in Resources */,
+				1691E3D62978EC07004FFE43 /* Roboto-Bold.ttf in Resources */,
+				1691E3D42978EBFA004FFE43 /* Roboto-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +246,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1691E3B42978E03F004FFE43 /* ViewController.swift in Sources */,
+				161352C8297E0D3B00DE899C /* WeatherView.swift in Sources */,
+				1691E3CB2978E9AC004FFE43 /* UIFont + Extensions.swift in Sources */,
+				1691E3CD2978E9CC004FFE43 /* UIColor + Extensions.swift in Sources */,
+				1691E3D92979FE1E004FFE43 /* CalendarView.swift in Sources */,
+				161352C5297DE2F600DE899C /* WorkoutTableViewCell.swift in Sources */,
+				1691E3D12978EA0B004FFE43 /* UIStackView + Extensions.swift in Sources */,
+				1691E3B42978E03F004FFE43 /* MainViewController.swift in Sources */,
 				1691E3B02978E03F004FFE43 /* AppDelegate.swift in Sources */,
+				1691E3DB297A0C28004FFE43 /* CalendarCollectionViewCell.swift in Sources */,
+				1691E3CF2978E9E9004FFE43 /* UIView + Extensions.swift in Sources */,
 				1691E3B22978E03F004FFE43 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +263,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1691E3B52978E03F004FFE43 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1691E3B62978E03F004FFE43 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1691E3BA2978E041004FFE43 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -289,12 +397,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 58UZ6NYFW9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Workout app/Info.plist";
+				INFOPLIST_FILE = "Workout app/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,9 +409,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "IK.Workout-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +427,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 58UZ6NYFW9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Workout app/Info.plist";
+				INFOPLIST_FILE = "Workout app/Resources/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -330,9 +439,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "IK.Workout-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
